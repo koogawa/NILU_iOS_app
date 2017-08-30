@@ -11,7 +11,7 @@
 		218AEA3E1EE6D0FD00F73841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218AEA3C1EE6D0FD00F73841 /* Main.storyboard */; };
 		218AEA401EE6D0FD00F73841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218AEA3F1EE6D0FD00F73841 /* Assets.xcassets */; };
 		218AEA431EE6D0FD00F73841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218AEA411EE6D0FD00F73841 /* LaunchScreen.storyboard */; };
-		218AEA4E1EE6D0FD00F73841 /* AratanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218AEA4D1EE6D0FD00F73841 /* AratanaTests.swift */; };
+		218AEA4E1EE6D0FD00F73841 /* NILUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218AEA4D1EE6D0FD00F73841 /* NILUTests.swift */; };
 		4A2C9C0D1F564183005A57D1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C9C0C1F564183005A57D1 /* WebViewController.swift */; };
 		4A2C9C0F1F56456A005A57D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C9C0E1F56456A005A57D1 /* HomeViewController.swift */; };
 		4A2C9C111F56556F005A57D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C9C101F56556F005A57D1 /* ProfileViewController.swift */; };
@@ -27,7 +27,7 @@
 			containerPortal = 218AEA2B1EE6D0FD00F73841 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 218AEA321EE6D0FD00F73841;
-			remoteInfo = Aratana;
+			remoteInfo = NILU;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,7 +39,7 @@
 		218AEA421EE6D0FD00F73841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		218AEA441EE6D0FD00F73841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		218AEA491EE6D0FD00F73841 /* NILUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NILUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		218AEA4D1EE6D0FD00F73841 /* AratanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AratanaTests.swift; sourceTree = "<group>"; };
+		218AEA4D1EE6D0FD00F73841 /* NILUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NILUTests.swift; sourceTree = "<group>"; };
 		218AEA4F1EE6D0FD00F73841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2C9C0C1F564183005A57D1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		4A2C9C0E1F56456A005A57D1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -72,8 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				4A2C9C141F567B3B005A57D1 /* README.md */,
-				218AEA351EE6D0FD00F73841 /* Aratana */,
-				218AEA4C1EE6D0FD00F73841 /* AratanaTests */,
+				218AEA351EE6D0FD00F73841 /* NILU */,
+				218AEA4C1EE6D0FD00F73841 /* NILUTests */,
 				218AEA341EE6D0FD00F73841 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		218AEA351EE6D0FD00F73841 /* Aratana */ = {
+		218AEA351EE6D0FD00F73841 /* NILU */ = {
 			isa = PBXGroup;
 			children = (
 				218AEA361EE6D0FD00F73841 /* AppDelegate.swift */,
@@ -102,17 +102,15 @@
 				218AEA441EE6D0FD00F73841 /* Info.plist */,
 				4A2C9C121F567665005A57D1 /* Constant.swift */,
 			);
-			name = Aratana;
 			path = NILU;
 			sourceTree = "<group>";
 		};
-		218AEA4C1EE6D0FD00F73841 /* AratanaTests */ = {
+		218AEA4C1EE6D0FD00F73841 /* NILUTests */ = {
 			isa = PBXGroup;
 			children = (
-				218AEA4D1EE6D0FD00F73841 /* AratanaTests.swift */,
+				218AEA4D1EE6D0FD00F73841 /* NILUTests.swift */,
 				218AEA4F1EE6D0FD00F73841 /* Info.plist */,
 			);
-			name = AratanaTests;
 			path = NILUTests;
 			sourceTree = "<group>";
 		};
@@ -132,7 +130,7 @@
 			dependencies = (
 			);
 			name = NILU;
-			productName = Aratana;
+			productName = NILU;
 			productReference = 218AEA331EE6D0FD00F73841 /* NILU.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -150,7 +148,7 @@
 				218AEA4B1EE6D0FD00F73841 /* PBXTargetDependency */,
 			);
 			name = NILUTests;
-			productName = AratanaTests;
+			productName = NILUTests;
 			productReference = 218AEA491EE6D0FD00F73841 /* NILUTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -162,7 +160,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Aratana inc.";
+				ORGANIZATIONNAME = "Kosuke Ogawa";
 				TargetAttributes = {
 					218AEA321EE6D0FD00F73841 = {
 						CreatedOnToolsVersion = 9.0;
@@ -232,7 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				218AEA4E1EE6D0FD00F73841 /* AratanaTests.swift in Sources */,
+				218AEA4E1EE6D0FD00F73841 /* NILUTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -361,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -373,7 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C8KJ4Y8T2P;
+				DEVELOPMENT_TEAM = 4SA8237VUA;
 				INFOPLIST_FILE = NILU/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -388,7 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C8KJ4Y8T2P;
+				DEVELOPMENT_TEAM = 4SA8237VUA;
 				INFOPLIST_FILE = NILU/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
