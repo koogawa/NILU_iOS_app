@@ -1,15 +1,15 @@
 //
-//  AratanaTests.swift
-//  AratanaTests
+//  NILUTests.swift
+//  NILUTests
 //
 //  Created by koogawa on 2017/06/06.
-//  Copyright © 2017年 Aratana inc. All rights reserved.
+//  Copyright © 2017年 Kosuke Ogawa. All rights reserved.
 //
 
 import XCTest
-@testable import Aratana
+@testable import NILU
 
-class AratanaTests: XCTestCase {
+class NILUTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
